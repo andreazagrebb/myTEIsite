@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <correspDesc>
+           <correspAction type="sent">
+              <persName>Mabel FitzGerald</persName>
+              <settlement>2 Loretto Villas, Bray, County Wicklow, Ireland</settlement>
+              <date when="1916-07-05">02 June 1916</date>
+           </correspAction>
+           <correspAction type="received">
+              <persName>The Governor, Mountjoy Prison</persName>
+              <settlement>Mountjoy Prison, Dublin, Ireland</settlement>
+           </correspAction>
+        </correspDesc>
+     </profileDesc>
+  </teiHeader>
+   <text>
+      <body>
+            <div>
+               <div type="letterBody">
+                  <opener>
+                     <dateline>5 July 1916</dateline>
+                     <salute>Sir,</salute>
+                  </opener>
+               </div> 
+               <div> <p>
+                  <lg type="paragraph" n="1">
+                   <l>I find that my husband Mr Desmond Fitzgerald, left Mount
+                        joy Prison, on Friday last so that he could not have received my 1
+                        letter before his departure. I had been told at the Prison that he
+                        would be able to write me and to receive one letter within the
+                        first week. I waited to write him till I should have had his letter
+                        which came on Friday morning: I posted my reply on Friday after
+                        noon.</l> </lg>
+                  <lg type="paragraph" n="2">
+                     <l>I have just heard from him again from Dartmoor : it
+                        appears they are permitted to write once and receive a letter
+                        after arrival there.</l>
+                  </lg>
+                  <lg type="paragraph" n="3">
+                     <l>I think it very likely that my letter to my husband
+                        was forwarded on from Mountjoy in which case he fears that it
+                        may count as the letter he has the right to receive in Dartmoor.
+                        I shall be very much obliged if you will write the Governor of Dart
+                        moor explaining matters so that he may be given the letter which
+                        I am now writing him to Dartmoor. As the he will not have another
+                        letter for four months I am anxious that he should not lose this
+                        one through a mistake.</l>
+                  </lg>
+               </p> 
+                  <closer>
+                     <salute>I am, Yours truly</salute>
+                  </closer>
+               </div>
+   </text>
+   </body>
+</TEI>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+  </text>
+</TEI>
