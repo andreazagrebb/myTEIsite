@@ -1,0 +1,8 @@
+tei-head{color: red}
+tei-head{font-style:red}
+tei-head:before {
+    content:"["
+}
+tei-head:after {
+    content: "]"
+}
