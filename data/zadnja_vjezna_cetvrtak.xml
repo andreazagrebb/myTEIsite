@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Peter McBrien to Geraldine Plunkett Dillon</title>      
+         </titleStmt> 
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <ref>http://letters1916.maynoothuniversity.ie/item/1261</ref>
+            </bibl>           
+         </sourceDesc>     
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <rs><persName>Peter McBrian</persName></rs>
+               <address>
+                  <street>56 Fitzroy Av.</street>
+                  <settlement>Dublin</settlement>
+                  <country>Ireland</country>
+               </address>
+               <date when="1916-10-15">15 October 1916</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="#p.1"> <idno type="URI" subtype="Wikidata"> https://www.rte.ie/archives/exhibitions/1993-easter-1916/portraits-1916/765442-portraits-1916-geraldine-dillon/></idno>Geraldine Plunkett Dillon</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <opener><address><addrLine>56 Fitzroy Av.,Dublin
+            </addrLine></address>
+            <dateline>15th October,1916</dateline>
+            <salute>Dear Mrs <persName><persName ref="#p.1"> <idno type="URI" subtype="Wikidata"> https://www.rte.ie/archives/exhibitions/1993-easter-1916/portraits-1916/765442-portraits-1916-geraldine-dillon/></idno>Geraldine Plunkett Dillon</persName></persName></salute></opener>
+         <p>I am sorry to be adding to your work and worry at such a time as this. Your preface I liked very much; what struck me most about it was its homeliness, sincerity, and its sense of the difficulty of reaching to the mastery of his instrument your brother showed. On the
+            whole I agree with your criticism of his work, too. The whole book is very fine and will live.</p>
+         <closer><salute>I am, dear Mrs. Dillon,
+            Very gratefully yours, Peter McBrien</salute></closer>
+         <postscript>
+            <p>P.S. : I shall be at Larkfield about 8.15, p.m., next Tuesday, 17 th. : your sister
+               must be blessing me. PMcB.</p>
+         </postscript>
+      </body>     
+   </text>
+</TEI>
