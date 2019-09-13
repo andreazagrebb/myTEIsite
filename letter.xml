@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Letter from Horace Plunkett to Edward Carson, 5 July 1916</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Letters of 1916</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Horace Plunkett</persName>
+               <address>
+                  <street>105 Mount Street</street>
+                  <settlement>London</settlement>
+                  <country>England</country>
+               </address>
+               <date when="1916-07-05">5 July 1916</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Edward Carson</persName>
+               <address>
+                  <settlement>Oxford</settlement>
+               </address>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="letterHead">
+            <ab type="preprintedText">TELEGRAMS, 
+               <lb/>JUVERNA LONDON." 
+               <lb/>TELEPHONE, 
+               <lb/>GERRARD 4703.
+            </ab>
+            
+            <ab type="preprintedText">105, MOUNT STREET, 
+               <lb/>LONDON, W.</ab>
+         </div>
+         <div type="envelope">
+            
+            <p>
+               <address>
+                  <addrLine>To the Dean of St Hugh' College</addrLine>
+                  <addrLine>in Oxford</addrLine>
+               </address>
+            </p>
+         </div>
+         <div type="letterBody">
+            <opener>
+               <dateline>5 July 1916</dateline>
+               <salute>My Dear <name>Carson</name></salute>
+            </opener>
+            <p>I am confined to my bed (&amp; have been for a fortnight) by a small but quite crippling ailment. </p>
+            <p> A short confidential and altogether non Committal talk might be helpful to us both — for I too, though by the rules of the game an
+               irresponsible onlooker, am deeply concerned in this <unclear>Ll.f.</unclear> settlement (!) &amp; am going to play my part. Of Course I
+               should go to you but for my unhappy plight </p>
+            <closer>
+               <salute>Yours ever</salute>
+               <signed>Horace <name>Plunkett</name></signed>
+            </closer>
+            <postscript>
+               <p>I may just say that I believe you could save 
+                  the situation in <name>Ireland</name> as none other could.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>
